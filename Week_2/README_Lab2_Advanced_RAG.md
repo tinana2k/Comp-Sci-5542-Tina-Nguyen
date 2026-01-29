@@ -2,8 +2,8 @@
 
 > **Course:** CS 5542 — Big Data Analytics and Apps  
 > **Lab:** Advanced RAG Systems Engineering  
-> **Student Name:**  Quynh (Tina) Nguyen
-> **GitHub Username:**  tinana2k
+> **Student Name:**  Quynh (Tina) Nguyen  
+> **GitHub Username:**  tinana2k  
 > **Date:**  01/29/2025
 
 ---
