@@ -87,6 +87,7 @@ Finally, cross-encoder re-ranking improves the ordering of top candidates so the
 | Q3 | Hybrid (Semantic) | 0.20 | 0.40 |
 
 <img width="381" height="83" alt="image" src="https://github.com/user-attachments/assets/55785a58-4baa-4d76-a235-eb5e53bdba7e" />
+<img width="1658" height="510" alt="image" src="https://github.com/user-attachments/assets/600a0d0b-94ff-4e89-b53c-f1f64869ea90" />
 
 
 ---
