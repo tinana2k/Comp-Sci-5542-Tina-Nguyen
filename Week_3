@@ -7,7 +7,7 @@
         "colab_type": "text"
       },
       "source": [
-        "<a href=\"https://colab.research.google.com/github/tinana2k/Comp-Sci-5542-Tina-Nguyen/blob/main/Week_3/project_src/CS5542_Lab3.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+        "<a href=\"https://colab.research.google.com/github/tinana2k/Comp-Sci-5542-Tina-Nguyen/blob/main/Week_3\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
       ]
     },
     {
@@ -287,11 +287,11 @@
         "print(\"Week_3 exists?\", os.path.exists(\"Week_3\"))\n"
       ],
       "metadata": {
-        "id": "qmV3yDCzUJe_",
-        "outputId": "8ae1b064-955d-4442-b9f7-3253ce43c705",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "qmV3yDCzUJe_",
+        "outputId": "8ae1b064-955d-4442-b9f7-3253ce43c705"
       },
       "id": "qmV3yDCzUJe_",
       "execution_count": 15,
@@ -316,11 +316,11 @@
         "!rm -f project_data_mm/figures/figure_*.png\n"
       ],
       "metadata": {
-        "id": "v1kg-GXeUZhf",
-        "outputId": "1340c97a-4260-4b10-e7ae-60bb9a72cf30",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "v1kg-GXeUZhf",
+        "outputId": "1340c97a-4260-4b10-e7ae-60bb9a72cf30"
       },
       "id": "v1kg-GXeUZhf",
       "execution_count": 16,
@@ -353,11 +353,11 @@
         "!ls\n"
       ],
       "metadata": {
-        "id": "BT6OICBpVCyJ",
-        "outputId": "67868778-1ead-44e7-d45f-de9bab24681c",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "BT6OICBpVCyJ",
+        "outputId": "67868778-1ead-44e7-d45f-de9bab24681c"
       },
       "id": "BT6OICBpVCyJ",
       "execution_count": 18,
@@ -889,11 +889,11 @@
         "!git clone https://github.com/tinana2k/Comp-Sci-5542-Tina-Nguyen.git\n"
       ],
       "metadata": {
-        "id": "eddD0f5Aioal",
-        "outputId": "548701a0-82a3-4b68-e109-0750d17e2d2a",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "eddD0f5Aioal",
+        "outputId": "548701a0-82a3-4b68-e109-0750d17e2d2a"
       },
       "id": "eddD0f5Aioal",
       "execution_count": 35,
@@ -921,11 +921,11 @@
         "!ls -lah /content/Comp-Sci-5542-Tina-Nguyen/Week_3/project_data_mm/figures\n"
       ],
       "metadata": {
-        "id": "8lTG7Dxpiqmb",
-        "outputId": "8cae6d18-0ed2-4d1e-8064-283a3175259d",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "8lTG7Dxpiqmb",
+        "outputId": "8cae6d18-0ed2-4d1e-8064-283a3175259d"
       },
       "id": "8lTG7Dxpiqmb",
       "execution_count": 36,
@@ -1167,11 +1167,11 @@
         "!pip install -q pytesseract"
       ],
       "metadata": {
-        "id": "pIeCgxbDCIUl",
-        "outputId": "68b6274f-a6e8-42d8-ac8c-3c4f236c987f",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "pIeCgxbDCIUl",
+        "outputId": "68b6274f-a6e8-42d8-ac8c-3c4f236c987f"
       },
       "id": "pIeCgxbDCIUl",
       "execution_count": 41,
@@ -1296,11 +1296,11 @@
         "    print(\"❌ No images found.\")"
       ],
       "metadata": {
-        "id": "CHdh_vC6Cuvk",
-        "outputId": "cfafb427-df86-4e27-b47e-8d8f3293fbba",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "CHdh_vC6Cuvk",
+        "outputId": "cfafb427-df86-4e27-b47e-8d8f3293fbba"
       },
       "id": "CHdh_vC6Cuvk",
       "execution_count": 42,
@@ -1497,11 +1497,11 @@
         "!pip install -q sentence-transformers faiss-cpu"
       ],
       "metadata": {
-        "id": "xxyyJX-KFAVE",
-        "outputId": "2d73fcf3-cb52-43f3-908e-414f0c9eb62b",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "xxyyJX-KFAVE",
+        "outputId": "2d73fcf3-cb52-43f3-908e-414f0c9eb62b"
       },
       "id": "xxyyJX-KFAVE",
       "execution_count": 46,
@@ -1575,8 +1575,6 @@
         "print(f\"Image Dictionary Size: {len(img_vec.vocabulary_)}\")"
       ],
       "metadata": {
-        "id": "Lc9NgX6NFSNB",
-        "outputId": "4162f882-c758-4e05-c29a-5a8e47a70702",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 713,
@@ -1714,7 +1712,9 @@
             "52f592a4e61f42ba83b7e32edee25681",
             "109d69d4fddc4f3f9db7d9c2125e2a84"
           ]
-        }
+        },
+        "id": "Lc9NgX6NFSNB",
+        "outputId": "4162f882-c758-4e05-c29a-5a8e47a70702"
       },
       "id": "Lc9NgX6NFSNB",
       "execution_count": 47,
@@ -2118,8 +2118,6 @@
         ""
       ],
       "metadata": {
-        "id": "vxa6UuTIGmUb",
-        "outputId": "5b92c9f6-d823-4a60-a206-6eb921107e6d",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 429,
@@ -2213,7 +2211,9 @@
             "f8ccbb6c9c5d4aa085bb992e502192c4",
             "1cc247dadd474f7ba383adca7502f3e2"
           ]
-        }
+        },
+        "id": "vxa6UuTIGmUb",
+        "outputId": "5b92c9f6-d823-4a60-a206-6eb921107e6d"
       },
       "id": "vxa6UuTIGmUb",
       "execution_count": 49,
@@ -2654,12 +2654,12 @@
         "    print(\"Context Images:\", [os.path.basename(p) for p in r[\"image_paths\"]])"
       ],
       "metadata": {
-        "id": "za-8w4o6JAh2",
-        "outputId": "c80d90ce-dee7-4308-8d4d-5522a050e1c3",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 486
-        }
+        },
+        "id": "za-8w4o6JAh2",
+        "outputId": "c80d90ce-dee7-4308-8d4d-5522a050e1c3"
       },
       "id": "za-8w4o6JAh2",
       "execution_count": 56,
@@ -2727,11 +2727,11 @@
         "! pip install -q transformers accelerate bitsandbytes"
       ],
       "metadata": {
-        "id": "uugZc5RtKefE",
-        "outputId": "006e8fdf-d651-41a7-deb9-db84a21fb2bf",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "uugZc5RtKefE",
+        "outputId": "006e8fdf-d651-41a7-deb9-db84a21fb2bf"
       },
       "id": "uugZc5RtKefE",
       "execution_count": 57,
@@ -2765,8 +2765,6 @@
         "print(\"✅ Model loaded.\")"
       ],
       "metadata": {
-        "id": "sISet-vnKkNE",
-        "outputId": "cad95a71-9bcc-4ef8-88c5-43e62c52546c",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 325,
@@ -2860,7 +2858,9 @@
             "226810fe86164407b757f39079aa7160",
             "7a0e96dca2ca46528fd77f5780a98b74"
           ]
-        }
+        },
+        "id": "sISet-vnKkNE",
+        "outputId": "cad95a71-9bcc-4ef8-88c5-43e62c52546c"
       },
       "id": "sISet-vnKkNE",
       "execution_count": 58,
@@ -3068,11 +3068,11 @@
         "    print(\"Images:\", [os.path.basename(p) for p in r[\"image_paths\"]])"
       ],
       "metadata": {
-        "id": "D9qci0YuKy3X",
-        "outputId": "b6838c2a-debc-4cdd-ff17-3faa94640382",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "D9qci0YuKy3X",
+        "outputId": "b6838c2a-debc-4cdd-ff17-3faa94640382"
       },
       "id": "D9qci0YuKy3X",
       "execution_count": 59,
@@ -3566,12 +3566,12 @@
         "display(df_results.pivot(index=\"Query\", columns=\"Method\", values=\"Recall@10\"))"
       ],
       "metadata": {
-        "id": "lIbz2XnLQolB",
-        "outputId": "e5ff4b5c-4708-4e56-8e89-76b26805a5a1",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 957
-        }
+        },
+        "id": "lIbz2XnLQolB",
+        "outputId": "e5ff4b5c-4708-4e56-8e89-76b26805a5a1"
       },
       "id": "lIbz2XnLQolB",
       "execution_count": 62,
@@ -4362,12 +4362,12 @@
         "display(agg)"
       ],
       "metadata": {
-        "id": "oL09WxjlRvhq",
-        "outputId": "73294319-b229-47d1-d6ea-b3985406a6fd",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 628
-        }
+        },
+        "id": "oL09WxjlRvhq",
+        "outputId": "73294319-b229-47d1-d6ea-b3985406a6fd"
       },
       "id": "oL09WxjlRvhq",
       "execution_count": 64,
@@ -5349,12 +5349,12 @@
         "display(df_ablation_modality)"
       ],
       "metadata": {
-        "id": "Rgw23HB6WbbK",
-        "outputId": "01c1f96c-100e-4174-eb0e-4a869a1a6d96",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 448
-        }
+        },
+        "id": "Rgw23HB6WbbK",
+        "outputId": "01c1f96c-100e-4174-eb0e-4a869a1a6d96"
       },
       "id": "Rgw23HB6WbbK",
       "execution_count": 69,
