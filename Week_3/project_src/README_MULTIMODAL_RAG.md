@@ -122,9 +122,9 @@ We evaluated five retrieval configurations:
 ![generator_API_Call](https://github.com/tinana2k/Comp-Sci-5542-Tina-Nguyen/blob/main/Week_3/project_report/generator_API_Call.jpg)
 
 ### D. LLM Local Generator
-![generator_LLM_Local]([https://github.com/tinana2k/Comp-Sci-5542-Tina-Nguyen/blob/main/Week_3/project_report/generator_LLM_Local_pt1.jpg))
+<img width="1737" height="768" alt="image" src="https://github.com/user-attachments/assets/00e96195-d2da-45fc-83ab-8700645d2ca1" />
 
-![generator_LLM_Local]([https://github.com/tinana2k/Comp-Sci-5542-Tina-Nguyen/blob/main/Week_3/project_report/generator_LLM_Local_pt2.jpg))
+<img width="1337" height="182" alt="image" src="https://github.com/user-attachments/assets/a6451e16-14fb-41bd-aeda-30d5221caa2e" />
 
 ### E. Quantitative Retrieval Metrics
 *=== Final Deliverable Table (Query x Method x Metrics) ===*
