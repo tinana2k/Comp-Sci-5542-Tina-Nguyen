@@ -1,10 +1,10 @@
 # CS 5542 — Lab 3: Multimodal RAG Systems & Retrieval Evaluation
 
 > **Course:** CS 5542 — Big Data Analytics and Applications  
-> **Lab:** Multimodal RAG Systems & Retrieval Evaluation     
-> **Student Name:** Tina (Quynh) Nguyen
-> **GitHub Username:** tinana2k
-> **Date:** 02/05/2026
+> **Lab:** Multimodal RAG Systems & Retrieval Evaluation      
+> **Student Name:** Tina (Quynh) Nguyen 
+> **GitHub Username:** tinana2k 
+> **Date:** 02/05/2026 
 
 ---
 
@@ -43,7 +43,7 @@ COMP_SCI_5542/
 ## 2. Project Dataset
 - **Domain:** Bank Fraud/Policies 
 - **# Documents:**	5 pdf files and 10 images (scanned pages, flowchart, tables, figures and screenshots etc.)
-- **Data Source (URL / Description):** [[tinana2k Github Repository](https://github.com/tinana2k/Comp-Sci-5542-Tina-Nguyen/tree/main/Week_3/project_data_mm)
+- **Data Source (URL / Description):** [tinana2k Github Repository](https://github.com/tinana2k/Comp-Sci-5542-Tina-Nguyen/tree/main/Week_3/project_data_mm)
 ---
 
 ## 3. Queries + Rubrics
@@ -116,69 +116,69 @@ We evaluated five retrieval configurations:
 ![ingestion_report](https://github.com/tinana2k/Comp-Sci-5542-Tina-Nguyen/blob/main/Week_3/project_report/ingestion_report.jpg)
 
 ### B. Lightweight Generator
-![generator_lightweight](https://github.com/user-attachments/assets/0cfd7d85-96ce-4eb0-bd24-93c1f1dc4ffc)
+![generator_lightweight](https://github.com/tinana2k/Comp-Sci-5542-Tina-Nguyen/blob/main/Week_3/project_report/generator_lightweight.jpg)
 
 ### C. LLM API Call Generator
-![generator_API_Call](https://github.com/user-attachments/assets/61563d18-b1fd-4ad5-a7bc-c1db671df481)
+![generator_API_Call](https://github.com/tinana2k/Comp-Sci-5542-Tina-Nguyen/blob/main/Week_3/project_report/generator_API_Call.jpg)
 
 ### D. LLM Local Generator
-![generator_LLM_Local](https://github.com/user-attachments/assets/34cf34d5-7bd7-4282-97e1-2eddb01ff475)
+![generator_LLM_Local]([https://github.com/user-attachments/assets/34cf34d5-7bd7-4282-97e1-2eddb01ff475](https://github.com/tinana2k/Comp-Sci-5542-Tina-Nguyen/blob/main/Week_3/project_report/generator_LLM_Local_pt1.jpg))
+
+![generator_LLM_Local]([https://github.com/tinana2k/Comp-Sci-5542-Tina-Nguyen/blob/main/Week_3/project_report/generator_LLM_Local_pt2.jpg))
 
 ### E. Quantitative Retrieval Metrics
 *=== Final Deliverable Table (Query x Method x Metrics) ===*
 
-|index|Query|Method|Precision@5|Recall@10|Total\_Rel\_In\_Corpus|
-|---|---|---|---|---|---|
-|0|Q1|Sparse Only|0\.60|0\.42|12|
-|1|Q1|Dense Only|0\.20|0\.42|12|
-|2|Q1|Hybrid|0\.60|0\.50|12|
-|3|Q1|Hybrid + Rerank|0\.60|0\.42|12|
-|4|Q1|Multimodal|0\.60|0\.42|12|
-|5|Q2|Sparse Only|0\.60|0\.44|9|
-|6|Q2|Dense Only|0\.60|0\.33|9|
-|7|Q2|Hybrid|0\.40|0\.56|9|
-|8|Q2|Hybrid + Rerank|0\.60|0\.44|9|
-|9|Q2|Multimodal|0\.60|0\.44|9|
-|10|Q3|Sparse Only|0\.80|0\.40|20|
-|11|Q3|Dense Only|1\.00|0\.40|20|
-|12|Q3|Hybrid|0\.60|0\.35|20|
-|13|Q3|Hybrid + Rerank|1\.00|0\.45|20|
-|14|Q3|Multimodal|1\.00|0\.45|20|
+<img width="801" height="670" alt="image" src="https://github.com/user-attachments/assets/0e07d0bf-cce3-41ba-b788-7a8a1aee5382" />
+
 
 ### F. Manual Evaluation Metrics for Generator Models
-![evaluation_metrics](https://github.com/user-attachments/assets/7cb287fd-41e7-444d-9704-ca9945409589)
+![evaluation_metrics](https://github.com/tinana2k/Comp-Sci-5542-Tina-Nguyen/blob/main/Week_3/project_report/full_evaluation_metrics_all_models.jpg)
 
 ### G. Ablation Study: Text-Only vs. Multimodal
 *Does adding images help answer the questions?*
 
-| Query | Modality | Images Retrieved | Answer Quality | Image_Paths |
-| :--- | :--- | :--- | :--- | :--- |
-| **Q1** | Text-Only | 0 | Generic procedural text. | None |
-| | **Multimodal** | **3** | Referenced the **"FCRA Compliance Flow Chart"** correctly. | ['Fair Credit Reporting Act (FCRA) Compliance Flow Chart_1.png', 'accuracy_in_concumer_reporting_process_blog_post-finalfinal.png', 'Dispute-Resolution--Unraveling-the-FCBA-s-Path-to-Fair-Credit-Billing--Step-by-Step-Guide-to-Resolving-Billing-Disputes-under-the-FCBA.png'] |
-| **Q2** | Text-Only | 0 | Missed the state comparison visual nuances. | None |
-| | **Multimodal** | **3** | Retrieved **"State Privacy Law Map"** and **"Schumer Box"**. | ['State-Data-Privacy-Law-Status_v2.png', 'Schumer_Box_example.png', 'State_Comp_Privacy_Law_Map.png'] |
-| **Q3** | Text-Only | 0 | Failed to find age thresholds. | None |
-| | **Multimodal** | **3** | Retrieved **"Privacy Scorecard"** images. | ['State-Data-Privacy-Law-Status_v2.png', 'lead-state-privacy-scorecard-graphic-attempt-1.png', 'CCPAvsGDPR-Nov.png'] |
+<img width="1707" height="510" alt="image" src="https://github.com/user-attachments/assets/15437da6-314f-473a-b22b-a37a7f6d82d9" />
+
 
 **Conclusion:** Multimodal RAG is essential for Q1 and Q2, as the text chunks alone described the *rules* but the images contained the *workflow* and *geographic distribution*.
 
 ---
 
-## 6. Failure Analysis (Q3 Case Study)
+## 6. Failure Analysis
 
-**The Failure:**
-For Q3 (*"how do age thresholds vary between Delaware, New Jersey, and Oregon"*), the **TinyLlama** generator failed.
-* **Observed Behavior:** It hallucinated specific details or gave a generic answer ("states vary") without citing specific numbers.
-* **Gemini Behavior:** Correctly stated "Not enough evidence" for specific age thresholds.
+### **1. Documented Failure Case**
 
-**Root Cause:**
-1.  **Retrieval Gap:** The specific age numbers (e.g., "13-16") were likely embedded inside a complex table in `doc4.pdf`.
-2.  **Chunking Error:** The fixed-size chunking likely split the **Header (State Name)** from the **Row Data (Age Limit)**, creating disjointed chunks that could not be retrieved together.
+**Query:**
+**Q3** — *“What is the exact dollar threshold for filing a Suspicious Activity Report (SAR) according to these documents and figures?”*
 
-**Proposed Fix:**
-* Implement **Semantic Chunking** (grouping by table/section) rather than fixed character counts.
-* Use **Visual Layout Analysis (VLA)** models (like LayoutLM) to parse tables before chunking.
+**Observed Failure:**
+The system produced a partially relevant answer discussing fraud reporting in general but **failed to consistently identify the exact SAR dollar threshold**. In some cases, the response was vague or relied on indirect language rather than explicitly stating the numeric threshold required for SAR filing.
 
+---
+
+### **2. Root Cause Analysis**
+
+This issue is primarily a **retrieval failure**, not a generation failure.
+
+1. **Numeric Detail Loss:**
+   The SAR threshold is a **specific numeric value**, which appears infrequently in the documents. Sparse and dense retrievers tend to prioritize semantic context (e.g., “fraud reporting,” “compliance”) over exact numbers, causing the key threshold value to be missed.
+
+2. **Chunking Around Tables and Timelines:**
+   The SAR threshold information is likely embedded in **tables, timelines, or compliance charts** (e.g., NACHA or fraud compliance figures). Fixed-size chunking may have separated the **numeric threshold** from the surrounding explanatory text, preventing the retriever from capturing the full rule in a single chunk.
+
+---
+
+### **3. Proposed Concrete Fix**
+
+**Improvement:**
+Enhance retrieval for numeric and policy-specific facts.
+
+* Increase **chunk overlap** to ensure numeric values remain attached to their explanatory context.
+* Add **keyword boosting or regex-based retrieval** for monetary patterns (e.g., “$”, “USD”, “threshold”) to improve recall of exact values.
+* Retrieve a larger candidate set (e.g., top-20) before **reranking**, allowing the cross-encoder to surface precise compliance rules.
+
+These changes would improve the system’s ability to retrieve and correctly report exact regulatory thresholds.
 ---
 
 ## 7. How to Run This Project
@@ -196,12 +196,12 @@ For Q3 (*"how do age thresholds vary between Delaware, New Jersey, and Oregon"*)
 
 ---
 
-## Reproducibility Checklist
-- [x] Project dataset included or linked  
-- [x] Queries + rubric filled  
-- [x] Results table completed  
-- [x] Screenshots included in repo  
-- [x] Notebook runs end-to-end  
+## Reproducibility Checklist Yes(Y) or No(N)
+- [Y] Project dataset included or linked  
+- [Y] Queries + rubric filled  
+- [Y] Results table completed  
+- [Y] Screenshots included in repo  
+- [Y] Notebook runs end-to-end  
 
 ---
 
