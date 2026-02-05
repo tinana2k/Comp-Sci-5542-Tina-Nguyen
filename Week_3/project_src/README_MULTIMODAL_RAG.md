@@ -1,10 +1,10 @@
 # CS 5542 — Lab 3: Multimodal RAG Systems & Retrieval Evaluation
 
-> **Course:** CS 5542 — Big Data Analytics and Applications  
-> **Lab:** Multimodal RAG Systems & Retrieval Evaluation      
-> **Student Name:** Tina (Quynh) Nguyen 
-> **GitHub Username:** tinana2k 
-> **Date:** 02/05/2026 
+**Course:** CS 5542 — Big Data Analytics and Applications    
+**Lab:** Multimodal RAG Systems & Retrieval Evaluation        
+**Student Name:** Tina (Quynh) Nguyen     
+**GitHub Username:** tinana2k     
+**Date:** 02/05/2026       
 
 ---
 
@@ -122,7 +122,7 @@ We evaluated five retrieval configurations:
 ![generator_API_Call](https://github.com/tinana2k/Comp-Sci-5542-Tina-Nguyen/blob/main/Week_3/project_report/generator_API_Call.jpg)
 
 ### D. LLM Local Generator
-![generator_LLM_Local]([https://github.com/user-attachments/assets/34cf34d5-7bd7-4282-97e1-2eddb01ff475](https://github.com/tinana2k/Comp-Sci-5542-Tina-Nguyen/blob/main/Week_3/project_report/generator_LLM_Local_pt1.jpg))
+![generator_LLM_Local]([https://github.com/tinana2k/Comp-Sci-5542-Tina-Nguyen/blob/main/Week_3/project_report/generator_LLM_Local_pt1.jpg))
 
 ![generator_LLM_Local]([https://github.com/tinana2k/Comp-Sci-5542-Tina-Nguyen/blob/main/Week_3/project_report/generator_LLM_Local_pt2.jpg))
 
