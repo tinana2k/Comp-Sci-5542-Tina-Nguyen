@@ -5,7 +5,7 @@
 
 ## Slide 1: Title
 **Project Title**: Controlled E-Commerce Product Image Generation using Stable Diffusion  
-**Author**: Tina Nguyen  
+**Student**: Tina Nguyen  
 **Scenario**: Option 1 - E-Commerce Product Image Generation  
 **Theme**: Real-World AI Control
 
