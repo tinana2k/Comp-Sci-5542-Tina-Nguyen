@@ -1,0 +1,13 @@
+torch
+diffusers
+transformers
+accelerate
+safetensors
+pandas
+numpy
+matplotlib
+Pillow
+scipy
+ftfy
+ipywidgets
+ipykernel
