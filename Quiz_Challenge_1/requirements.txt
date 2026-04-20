@@ -1,0 +1,9 @@
+torch
+diffusers
+transformers
+accelerate
+safetensors
+pandas
+matplotlib
+Pillow
+pytest
