@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 torch
 diffusers
 transformers
@@ -7,3 +8,14 @@ pandas
 matplotlib
 Pillow
 pytest
+=======
+torch
+diffusers
+transformers
+accelerate
+safetensors
+pandas
+matplotlib
+Pillow
+pytest
+>>>>>>> 6708d2e (Finalize Quiz Challenge 1: 5-product consistency experiment with UMKC-themed PDF report and slides)
