@@ -156,3 +156,4 @@ python src/evaluator.py
 
 - **GitHub**: https://github.com/tinana2k/Comp-Sci-5542-Tina-Nguyen
 - **Colab Notebook**: `notebooks/ecommerce_generation.ipynb`
+- **Demo Video**: https://umsystem.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4b01267e-fcc1-4f2c-95e6-b433004e175a
