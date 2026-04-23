@@ -1,0 +1,11 @@
+openai-whisper
+torch
+torchaudio
+transformers
+datasets
+soundfile
+librosa
+numpy
+pandas
+scikit-learn
+matplotlib
