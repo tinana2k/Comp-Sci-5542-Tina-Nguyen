@@ -1,0 +1,9 @@
+Foundation models such as GPT-4, Llama 3, and Claude 3 are pretrained on trillions of tokens and
+fine-tuned with RLHF to align model behavior, yet hallucination and sycophancy remain unsolved
+challenges. Retrieval-Augmented Generation addresses the knowledge-grounding problem by retrieving
+relevant passages from an external corpus at inference time and conditioning the LLM on verified
+evidence, significantly reducing hallucination rates without requiring model retraining. Students
+must clone the lab repository, read the Lewis et al. RAG paper, and submit a team project proposal
+by Friday. Evaluating RAG systems requires multiple metrics spanning retrieval quality — Recall at
+K, MRR, NDCG — and generation quality — ROUGE, BERTScore, and RAGAS — since optimizing for any
+single metric risks sacrificing others.
