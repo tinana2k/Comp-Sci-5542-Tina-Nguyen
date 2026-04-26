@@ -1,5 +1,6 @@
 # AI Speech Intelligence System
 **CS 5542 — Quiz Challenge 2**
+
 **Student:** Tina Nguyen | **Semester:** Spring 2026 | **Use Case:** Smart Lecture Assistant
 
 ---
