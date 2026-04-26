@@ -1,0 +1,13 @@
+{
+  "target_lang": "vi",
+  "language_name": "Vietnamese",
+  "model_id": "Helsinki-NLP/opus-mt-en-vi",
+  "source_text": "summary",
+  "original_text": "Foundation models like GPT-4, Llama 3, Claude 3, and Gemini Ultra are pretrained on trillions of tokens and refined with RLHF, but hallucination and sycophancy remain unresolved alignment challenges. Retrieval-Augmented Generation, introduced by Lewis et al. in 2020, grounds LLM responses in external verifiable knowledge by encoding a document corpus into a shared embedding space and retrieving the top-k passages at inference time — significantly reducing hallucination without model retraining. This week's lab will implement a RAG pipeline using LangChain and ChromaDB; students must clone the repository and install dependencies before Thursday, read the Lewis et al. paper, and submit a team project proposal by Friday midnight. Evaluating RAG requires a multi-faceted toolkit: Recall at K, MRR, and NDCG for retrieval quality, and ROUGE, BERTScore, and RAGAS for generation quality — no single metric is sufficient.",
+  "translated_text": "Các mô hình nền tảng như GPT-4, Llama 3, Claude 3 và Gemini Ultra được huấn luyện trước trên hàng nghìn tỷ token và được tinh chỉnh bằng RLHF, nhưng ảo giác và xu hướng nịnh hót vẫn còn là những thách thức căn chỉnh chưa được giải quyết. Tăng cường truy xuất (RAG) được giới thiệu bởi Lewis et al. năm 2020, neo chặt các phản hồi của LLM vào kiến thức bên ngoài có thể xác minh bằng cách mã hóa kho tài liệu vào không gian nhúng chung và truy xuất k đoạn văn liên quan nhất tại thời điểm suy luận — giảm đáng kể ảo giác mà không cần huấn luyện lại mô hình. Phòng thí nghiệm tuần này sẽ triển khai một pipeline RAG sử dụng LangChain và ChromaDB; sinh viên phải sao chép kho lưu trữ và cài đặt các phụ thuộc trước thứ Năm, đọc bài báo của Lewis et al. và nộp đề xuất dự án nhóm trước nửa đêm thứ Sáu. Đánh giá RAG yêu cầu bộ công cụ đa chiều: Recall at K, MRR và NDCG cho chất lượng truy xuất, và ROUGE, BERTScore và RAGAS cho chất lượng tạo — không có chỉ số đơn lẻ nào là đủ.",
+  "word_count_original": 122,
+  "word_count_translated": 145,
+  "bleu_score": 0.0,
+  "duration_s": 4.023,
+  "note": "Vietnamese translation retains technical acronyms (RAG, RLHF, NDCG, ROUGE) and proper nouns (LangChain, ChromaDB, RAGAS) in their original form. Word count is higher due to Vietnamese morphology."
+}

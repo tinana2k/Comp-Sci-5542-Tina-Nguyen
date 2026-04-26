@@ -1,0 +1,16 @@
+{
+  "strategy": "baseline",
+  "summary": "Good morning everyone and welcome back to C S 5 5 4 2. Today we are diving into one of the most exciting and rapidly evolving areas of artificial intelligence foundation models and their practical applications in retrieval augmented generation systems. Let's begin with a quick recap.",
+  "action_items": [],
+  "sentiment": {
+    "label": "POSITIVE",
+    "score": 0.7834
+  },
+  "keywords": [
+    {"phrase": "models", "score": 0.0412},
+    {"phrase": "retrieval", "score": 0.0389},
+    {"phrase": "foundation", "score": 0.0341},
+    {"phrase": "generation", "score": 0.0298},
+    {"phrase": "evaluation", "score": 0.0274}
+  ]
+}

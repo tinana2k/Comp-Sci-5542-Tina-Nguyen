@@ -1,0 +1,117 @@
+{
+  "audio_file": "data/sample_lecture.mp3",
+  "use_case": "Smart Lecture Assistant",
+  "run_timestamp": "2026-04-23T18:25:00",
+  "lecture_topic": "Foundation Models, RAG Systems, and Evaluation in Modern NLP",
+  "models_used": {
+    "stt_primary": "openai/whisper-base",
+    "stt_comparison": "facebook/wav2vec2-base-960h",
+    "summarisation": "facebook/bart-large-cnn",
+    "sentiment": "distilbert-base-uncased-finetuned-sst-2-english",
+    "keywords": "KeyBERT (all-MiniLM-L6-v2 + MMR)",
+    "translation": "Helsinki-NLP/opus-mt-en-{es,fr,vi}",
+    "tts": "microsoft/speecht5_tts"
+  },
+  "transcription": {
+    "reference_word_count": 548,
+    "whisper_baseline_wer": 0.0894,
+    "whisper_improved_wer": 0.0346,
+    "wav2vec2_wer": 0.1124,
+    "whisper_wer_reduction_pct": 61.3,
+    "model_comparison": {
+      "whisper_base_wer": 0.0346,
+      "wav2vec2_base_wer": 0.1124,
+      "winner": "Whisper (3.46% vs 11.24% WER)",
+      "whisper_advantage_pct": 69.2
+    },
+    "notable_baseline_errors": [
+      {"error_type": "proper_noun",         "baseline": "boss money et al",         "reference": "Vaswani et al."},
+      {"error_type": "technical_term",      "baseline": "hallucinate shins",         "reference": "hallucination"},
+      {"error_type": "acronym_split",       "baseline": "G P T 4",                  "reference": "GPT-4"},
+      {"error_type": "acronym_split",       "baseline": "R L H F",                  "reference": "RLHF"},
+      {"error_type": "acronym_split",       "baseline": "R A G",                    "reference": "RAG"},
+      {"error_type": "tool_name",           "baseline": "lang chain",               "reference": "LangChain"},
+      {"error_type": "tool_name",           "baseline": "chroma D B",               "reference": "ChromaDB"},
+      {"error_type": "tool_name",           "baseline": "col bert",                 "reference": "ColBERT"},
+      {"error_type": "tool_name",           "baseline": "fie ss",                   "reference": "FAISS"},
+      {"error_type": "missing_punctuation", "baseline": "helpful harmless and honest however", "reference": "helpful, harmless, and honest. However,"},
+      {"error_type": "word_substitution",   "baseline": "blew",                     "reference": "BLEU"}
+    ]
+  },
+  "summarisation": {
+    "baseline_length_words": 47,
+    "improved_length_words": 103,
+    "reference_length_words": 85,
+    "baseline_compression_ratio": 0.086,
+    "improved_compression_ratio": 0.188,
+    "baseline_rouge": {"rouge1": 0.3124, "rouge2": 0.1247, "rougeL": 0.2891},
+    "improved_rouge": {"rouge1": 0.5634, "rouge2": 0.3812, "rougeL": 0.5219},
+    "rouge1_delta_pct": 80.3,
+    "rouge2_delta_pct": 205.6,
+    "rougeL_delta_pct": 80.5
+  },
+  "sentiment": {
+    "baseline": {"label": "POSITIVE", "score": 0.7834, "granularity": "global_only"},
+    "improved": {"label": "POSITIVE", "score": 0.7641, "positive_ratio": 0.714, "negative_ratio": 0.286, "sentence_count": 21, "granularity": "per_sentence"},
+    "negative_sentences_detected": [
+      "However, I want you to critically examine the claim that RLHF fully solves alignment.",
+      "It does not.",
+      "Hallucination remains a persistent problem.",
+      "As does sycophancy — where the model tells you what you want to hear rather than what is true.",
+      "Do not rely on a single metric.",
+      "Foundation models are powerful but imperfect."
+    ]
+  },
+  "keywords": {
+    "baseline_count": 5,
+    "improved_count": 12,
+    "baseline_coverage_vs_reference": 0.2,
+    "improved_coverage_vs_reference": 0.733,
+    "coverage_delta_pct": 266.5
+  },
+  "action_items": {
+    "baseline_count": 0,
+    "improved_count": 5,
+    "items": [
+      {"id": 1, "text": "Clone the lab repository and install dependencies from requirements.txt before Thursday.", "deadline": "Thursday", "assignee": "all students"},
+      {"id": 2, "text": "Read the original RAG paper by Lewis et al. — linked in the course portal.", "deadline": "Thursday", "assignee": "all students"},
+      {"id": 3, "text": "Submit a one-paragraph project proposal by Friday at midnight.", "deadline": "Friday midnight", "assignee": "teams"},
+      {"id": 4, "text": "Review the FAISS documentation before next class.", "deadline": "next class", "assignee": "all students"},
+      {"id": 5, "text": "Be prepared to explain the difference between flat and IVF indexing strategies.", "deadline": "next class", "assignee": "all students"}
+    ]
+  },
+  "translation": {
+    "model_family": "Helsinki-NLP MarianMT",
+    "source_text": "improved_summary",
+    "source_word_count": 122,
+    "languages": {
+      "es": {"language_name": "Spanish",    "model_id": "Helsinki-NLP/opus-mt-en-es", "word_count_translated": 130, "inference_s": 3.412},
+      "fr": {"language_name": "French",     "model_id": "Helsinki-NLP/opus-mt-en-fr", "word_count_translated": 135, "inference_s": 3.198},
+      "vi": {"language_name": "Vietnamese", "model_id": "Helsinki-NLP/opus-mt-en-vi", "word_count_translated": 145, "inference_s": 4.023}
+    },
+    "whisper_translation_note": "Whisper also supports task='translate' for direct non-English audio → English text translation (speech translation, not text translation)"
+  },
+  "tts": {
+    "model": "microsoft/speecht5_tts",
+    "vocoder": "microsoft/speecht5_hifigan",
+    "input": "improved_summary (first 600 chars)",
+    "output_wav": "outputs/tts/sample_lecture_summary.wav",
+    "estimated_duration_s": 18.4,
+    "note": "Closes the full speech loop: Audio IN → Whisper STT → NLP → Translation → SpeechT5 TTS → Audio OUT"
+  },
+  "evaluation_summary": {
+    "winner": "improved_pipeline",
+    "metrics_won": 7,
+    "metrics_total": 7,
+    "headline_stats": {
+      "whisper_wer_reduction": "61.3% (vs baseline prompt)",
+      "whisper_vs_wav2vec2_advantage": "69.2% lower WER",
+      "rouge2_improvement": "+205.6%",
+      "keyword_coverage_improvement": "+266.5%",
+      "action_items_baseline": 0,
+      "action_items_improved": 5,
+      "languages_translated": 3,
+      "tts_output": "Yes (SpeechT5)"
+    }
+  }
+}
