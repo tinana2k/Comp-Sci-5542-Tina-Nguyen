@@ -1,5 +1,5 @@
 # Dataset Description — Speech Intelligence System
-## CS 5542 | Quiz Challenge 2 | Author: Tina Nguyen
+## CS 5542 | Quiz Challenge 2 | Student: Tina Nguyen
 
 ---
 
