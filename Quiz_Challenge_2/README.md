@@ -271,4 +271,7 @@ Key packages:
 - **GitHub**: https://github.com/tinana2k/Comp-Sci-5542-Tina-Nguyen
 - **Demo Video**: https://umsystem.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=06bb7bf0-1c42-4942-96c7-b43900522da8
 
+
+---
+
 *CS 5542 — Quiz Challenge 2 | Spring 2026*
